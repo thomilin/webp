@@ -1,7 +1,7 @@
 <html>
   
 <head>
-        <title>MARISOLA</title>
+        <title>Spotilinn</title>
 
 <style>
         body{
@@ -32,6 +32,16 @@
                 <img src="https://www.latercera.com/resizer/TKxuvQ90ycXG9hzcxiYBENiaUtE=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/2WJPAYBWVJAM3F55INWKMGW5QM.jpeg"
                 width=400
                 height=400>
+
+                <script>
+                    function playMusic(){
+                     var music = new Audio('src/bocina.mp3');
+                     music.volume = 0.2;
+                     music.play();
+                     } 
+                 </script>
+
+                <input type="button" value="APRETAR" onclick="playMusic()" />
 
                 <audio controls>
                     <source src="src/marisola.mp3" type="audio/mp3">
