@@ -1,0 +1,85 @@
+/* CSS */
+
+body{
+    background: linear-gradient(#e60bc8, #6805c4);
+    font-family: sans-serif;
+}
+
+.button{
+    margin: 13px;
+    padding: 13px;
+    background-color: rgb(64, 7, 155); 
+    color:#ffffff; 
+    border:none; 
+    border-radius: 4px; 
+    font-size: 12px;
+}
+
+.button:hover{
+    background-color: rgb(113, 47, 219); 
+    color: #F1F73B;
+}
+
+
+.contenedor{
+    background: linear-gradient( #39046b, #b004b6);
+    /* background: linear-gradient( rgba(22,2,42,0.5), rgba(176,4,182,0.5)); */
+    box-shadow: 4px 4px 7px rgb(37, 37, 37);
+    border-radius: 35px;
+    height: 90vh;
+    margin: 4%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+img{
+    box-shadow: 4px 4px 7px rgb(37, 37, 37);
+    border-radius: 35px;
+}
+
+p{
+    width: 30%;
+    text-align: justify;
+    color: rgb(209, 19, 226);
+    
+}
+
+a{
+    width: 60%;
+    text-align: center;
+}
+
+h1{
+    color: rgb(209, 19, 226);
+}
+
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+/* NAVBAR */

@@ -1,42 +1,47 @@
 <html>
   
+
 <head>
         <title>Spotilinn</title>
+        <link rel="stylesheet" href="styles.css">
 
-<style>
-        body{
-                font-family: sans-serif;
-        }
-        .contenedor{
-                background-color: rgb(211, 64, 186);
-                height: 95vh;
-                margin: 2%;
 
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-        }
-
-        p{
-                width: 60%;
-        }
-
-        p1{
-                width: 60%;
-        }
-
-</style>
 </head>
 
+<!-- <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+</ul> -->
+
+
 <body>
+        
+
+
         <div class="contenedor">
+                <h1>TOP CANCIONES CHILE</h1>
+
+                <a href="#marisola" style="color:#ffffff;">MARISOLA</a>
+                <a href="#tapate" style="color:#ffffff;">TAPATE</a>
+                <a href="#bailando" style="color:#ffffff;">BAILANDO</a>
+                <a href="#quesehace" style="color:#ffffff;">QUE SE HACE</a>
+                <a href="#levitating" style="color:#ffffff;">LEVITATING</a>
+
+                <p></p>
+
+                <img src="src/admin.jpg" alt="ADMIN" width=400 height=400>
+        </div>
+     
+        
+        <div id="marisola" class="contenedor">
                 <h1>MARISOLA</h1>
-                <p1>Mami linda, Una nena sencilla, Como Arcangel la maravilla, Me gusta cuando tú te arrodilla', Yo te llevo a 200 milla', Yo te voy a dar lo que me pida, Tú a mí no me podrá' olvidar, Yo quedo loco cuando te pone' a bailar, Y en mi pieza te voy a desnudar</p1>
-                <p>Ya no fuma mari sola, Que yo unos pitito' te puedo enrolar, Que no se me pique a choro tu papá, Que yo soy tú ma'ta cola y te como la popola, Ya no fuma mari sola, Que yo unos pitito' te puedo enrolar</p>
-                <img src="https://www.latercera.com/resizer/TKxuvQ90ycXG9hzcxiYBENiaUtE=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/2WJPAYBWVJAM3F55INWKMGW5QM.jpeg"
+                <p>Mami linda, Una nena sencilla, Como Arcangel la maravilla, Me gusta cuando tú te arrodilla', Yo te llevo a 200 milla', Yo te voy a dar lo que me pida, Tú a mí no me podrá' olvidar, Yo quedo loco cuando te pone' a bailar, Y en mi pieza te voy a desnudar<br><br>
+                Ya no fuma mari sola, Que yo unos pitito' te puedo enrolar, Que no se me pique a choro tu papá, Que yo soy tú ma'ta cola y te como la popola, Ya no fuma mari sola, Que yo unos pitito' te puedo enrolar</p>
+                <img src="src/marisola.jpg"
                 width=400
-                height=400>
+                height=400> 
 
                 <script>
                     function playMusic(){
@@ -46,7 +51,7 @@
                      } 
                  </script>
 
-                <input type="button" value="APRETAR" onclick="playMusic()" />
+                <input type="button" value="APRETAR" onclick="playMusic()" class="button" />
 
                 <audio controls>
                     <source src="src/marisola.mp3" type="audio/mp3">
@@ -54,6 +59,143 @@
                 </audio>
 
         </div>
+
+        <div id="tapate" class="contenedor">
+                <h1>TAPATE</h1>
+
+                <p>Yo no paro de pensarte je
+                        Solo que quiero llamarte
+                        Tu carita a mi me debilita
+                        Y me hace querer volverte a a ver
+                        Voy pa dentro tocate
+                        Si vienen los guardias no lo pienses mami cubreme
+                        Traje una botella de rosé
+                        Pa que el booty tuyo con mi pelvis lo roses<br><br>
+                        Voy pa dentro tocate tocate
+                        Si se tiran los guardias tapate tapate
+                        Capsuliando la ganya Un leño champaña
+                        Desacatau en la nota si prendo te dañas</p>
+
+                <img src="src/tapate.jpg" width="400" height="400">
+
+                
+
+                <input type="button" value="APRETAR" onclick="playMusic()" class="button" />
+
+                <audio controls>
+                    <source src="src/tapate.mp3" type="audio/mp3">
+                        Tu navegador no soporta audio HTML5.
+                </audio>
+
+        </div>
+
+        <div id="bailando" class="contenedor">
+                <h1>BAILANDO</h1>
+
+                <p>Somo' puro' pato' feo')
+                        (Por uste' yo la peleo)
+                        (Una línea, en la calle joseo)
+                        (Con cualquiera yo me enre'o)
+                        (Uoh-oh)<br><br>
+                        De-de hace rato que yo te estaba mirando, ah
+                        En la discoteca sin ata'o perreando
+                        Me dijo que no y me terminó bailando
+                        Ella pensaba que estaba coronando
+                        Porque una Corona se estuvo tomando<br><br>
+                        La-la-la-la tengo saltando aquí arriba mío
+                        Sabe que soy flaite, que vengo de caserío
+                        Quiere que ese toto, yo se lo deje partío'
+                        Por ti a cualquier logi el peine entero le vacío</p>
+
+                <img src="src/bailando.jpg" width=400 height=400>
+
+                <script>
+                    function playMusic(){
+                     var music = new Audio('src/bocina.mp3');
+                     music.volume = 0.1;
+                     music.play();
+                     } 
+                 </script>
+
+                <input type="button" value="APRETAR" onclick="playMusic()" class="button"/>
+
+                <audio controls>
+                    <source src="src/bailando.mp3" type="audio/mp3">
+                        Tu navegador no soporta audio HTML5.
+                </audio>
+
+        </div>
+
+        <div id="quesehace" class="contenedor">
+                <h1>QUE SE HACE</h1>
+
+                <p>Gi-Gi-Gitto ¿Dónde estás?
+                        En la casa solo
+                        Og Kush enrolo
+                        Salgo vestío Polo
+                        Me metí a WhatsApp a ver que wea pasa (pr-pr-pr-prrr)<br><br>
+                        Y pregunto ¿qué se hace? (¿Qué se hace?)
+                        Parece que hay un party en el case
+                        Toa la chamaquita quieren un pase (uh)
+                        To los mandriles, pistola con láser, pistola con láser
+                        Y que se hace, a ella le gusta que le hablen mala clase
+                        Pa las chamaquitas tengo mas de un pase
+                        To los mandriles pistola con láser, pistola con láser</p>
+
+                <img src="src/quesehace.jpg" width=400 height=400>
+
+                <script>
+                    function playMusic(){
+                     var music = new Audio('src/bocina.mp3');
+                     music.volume = 0.1;
+                     music.play();
+                     } 
+                 </script>
+
+                <input type="button" value="APRETAR" onclick="playMusic()" class="button"/>
+
+                <audio controls>
+                    <source src="src/quesehace.mp3" type="audio/mp3">
+                        Tu navegador no soporta audio HTML5.
+                </audio>
+
+        </div>
+
+        <div id="levitating" class="contenedor">
+                <h1>LEVITATING</h1>
+
+                <p>If you wanna run away with me, I know a galaxy
+                        And I can take you for a ride
+                        I had a premonition that we fell into a rhythm
+                        Where the music don't stop for life
+                        Glitter in the sky, glitter in my eyes
+                        Shining just the way I like
+                        If you're feeling like you need a little bit of company
+                        You met me at the perfect time<br><br>
+                        You want me, I want you, baby
+                        My sugarboo, I'm levitating
+                        The Milky Way, we're renegading
+                        Yeah, yeah, yeah, yeah, yeah</p>
+
+                <img src="src/levitating.jpg" width=400 height=400>
+
+                <script>
+                    function playMusic(){
+                     var music = new Audio('src/bocina.mp3');
+                     music.volume = 0.1;
+                     music.play();
+                     } 
+                 </script>
+
+                <input type="button" value="APRETAR" onclick="playMusic()" class="button"/>
+
+                <audio controls>
+                    <source src="src/levitating.mp3" type="audio/mp3">
+                        Tu navegador no soporta audio HTML5.
+                </audio>
+
+        </div>
+
 </body>
 
 </html>
